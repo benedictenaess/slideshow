@@ -74,9 +74,6 @@ body {
 	height: 100%;
 }
 
-.slideshow__control-button:hover {
-}
-
 .slideshow__dots {
 	position: absolute;
 	top: 0;
@@ -86,10 +83,6 @@ body {
 	flex-flow: column nowrap;
 	gap: 10px;
 	overflow: scroll;
-}
-
-.slideshow__dots::-webkit-scrollbar{
-	display: none;
 }
 
 .slideshow__dot {
