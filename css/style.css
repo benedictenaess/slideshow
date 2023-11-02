@@ -1,5 +1,5 @@
 html {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%); */
 	width: 620px;
-	height: 750px;
+	height: 700px;
 }
 
 .slideshow__slides {
@@ -71,30 +71,37 @@ body {
 	transform: translateX(-50%); */
 	top: 0;
 	left: -10%;
-	height: 750px;
+	height: 700px;
 	display: flex;
 	flex-flow: column nowrap;
-	gap: 17px;
+	gap: 10px;
 	overflow: scroll;
 }
 
 .slideshow__dot {
 	display: block;
 	width: 60px;
-	height: 60px;
+	height: 80px;
 	object-fit: cover;
 }
 
 .slideshow__caption {
 	position: absolute;
 	top: 100%;
-	left: 0;
+	left: 4%;
+	width: 470px;
+	color: lightpink;
 }
 
 .slideshow__counter {
 	position: absolute;
-	top: 0;
-	left: 100%;
+	display: flex;
+	justify-content: flex-end;
+	top: 100%;
+	width: 594px;
 	color: lightpink;
-	font-weight: 700;
+}
+
+img:hover {
+    cursor: pointer;
 }
