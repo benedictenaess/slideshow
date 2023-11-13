@@ -6,7 +6,6 @@ const textContent = 'COLOURFULHOMES';
 
 
 const arrayText = Array.from(textContent);
-console.log(arrayText);
 
 arrayText.forEach(letter =>{
 	const span = document.createElement('span');
@@ -22,4 +21,3 @@ arrayText.forEach(letter =>{
         span.style.color = ''; 
     });
 });
-
