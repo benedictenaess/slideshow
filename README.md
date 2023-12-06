@@ -16,6 +16,7 @@ This project is a simple slideshow application featuring a collection of colorfu
 - Click on the left or right arrow buttons to navigate between slides.
 - Click on the dots at the bottom to jump to a specific slide.
 - Hover over images to see a cursor pointer, indicating interactivity.
+- https://unrivaled-praline-66525f.netlify.app
 
 ## Design and Styling
 
